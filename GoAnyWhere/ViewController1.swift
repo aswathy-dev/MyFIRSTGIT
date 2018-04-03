@@ -15,6 +15,8 @@ class ViewController1: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        print ("testwte")
+        
         let logInButton = TWTRLogInButton(logInCompletion: { session, error in
             if (session != nil) {
               //  print("signed in as \(session.userName)");
